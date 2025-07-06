@@ -46,7 +46,7 @@ export default function Header() {
         </div>
       </div>
       {open && (
-        <div className="md:hidden mt-2 flex flex-col gap-4 bg-white dark:bg-black p-4 rounded shadow">
+        <div className="md:hidden mt-2 flex flex-col gap-4 bg-white dark:bg-pink-900 p-4 rounded shadow">
           {navItems.map((item) => (
             <a key={item.href} href={item.href} className="hover:underline" onClick={() => setOpen(false)}>
               {item.label}

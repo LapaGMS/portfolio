@@ -6,7 +6,7 @@ export default function Hero() {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="text-center py-20 bg-gradient-to-b from-gray-100 to-white dark:from-gray-900 dark:to-gray-800"
+      className="text-center py-20 min-h-screen"
     >
       <h1 className="text-5xl font-extrabold text-gray-900 dark:text-white">Hei, olen Rapukeisari 🦀</h1>
       <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">
