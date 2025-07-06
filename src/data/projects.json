@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Portfolio",
+    "description": "Tämä portfolio-sivusto on rakennettu Reactilla ja Tailwindilla.",
+    "link": "https://github.com/rapukeisari/portfolio"
+  },
+  {
+    "title": "TODO-sovellus",
+    "description": "Yksinkertainen tehtävienhallintasovellus Reactilla ja localStoragella.",
+    "link": "https://github.com/rapukeisari/todo"
+  },
+  {
+    "title": "API-kokeilu",
+    "description": "Projekti, jossa haetaan ulkoista dataa ja näytetään se listana.",
+    "link": "https://github.com/rapukeisari/apiprojekti"
+  }
+]
+
