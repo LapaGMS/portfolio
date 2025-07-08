@@ -2,17 +2,38 @@
   {
     "title": "Portfolio",
     "description": "Tämä portfolio-sivusto on rakennettu Reactilla ja Tailwindilla.",
-    "link": "https://github.com/rapukeisari/portfolio"
+    "date": "Heinä. 2025",
+    "link_source": "https://github.com/LapaGMS/portfolio",
+    "tags": ["React", "Tailwind", "Frontend"]
   },
   {
-    "title": "TODO-sovellus",
-    "description": "Yksinkertainen tehtävienhallintasovellus Reactilla ja localStoragella.",
-    "link": "https://github.com/rapukeisari/todo"
+    "title": "Tietovisasivusto (ryhmäprojekti)",
+    "description": "Reactin harjoitteluun tehty tietovisasivusto, joka tehtiin kolmen hengen ryhmissä. Mukana Akseli Korkeamäki ja Eemeli Sarttila.",
+    "date": "Huhti. 2025",
+    "link": "https://lasmaa23lahiovisat.node.treok.io/",
+    "tags": ["React", "Javascript", "Backend"]
   },
   {
-    "title": "API-kokeilu",
-    "description": "Projekti, jossa haetaan ulkoista dataa ja näytetään se listana.",
-    "link": "https://github.com/rapukeisari/apiprojekti"
+    "title": "Fanikauppa Horse Attakk Sqwadille",
+    "description": "Reactin harjoitteluun tehty kuvitteellinen fanikauppa.",
+    "date": "Tammi. 2025",
+    "link": "https://lasmaa23fanikauppa2025.node.treok.io/",
+    "tags": ["React", "Javascript", "Backend"]
+  },
+  {
+    "title": "Lottopeli",
+    "description": "Lotto-simulaattori, jossa voit valita oman rivisi ja kone arpoo sinulle oikean rivin. Asetuksilla voit säätää automaatin nopeutta, pelin hintaa jne.",
+    "date": "Joulu. 2023",
+    "link": "https://lapamaatta.github.io/lottopeli/",
+    "link_source": "https://github.com/lapamaatta/lottopeli",
+    "tags": ["Javascript", "HTML", "CSS"]
+  },
+  {
+    "title": "Nettisivut Ohimaan Marjatilalle",
+    "description": "Koulun ensimmäinen isompi projekti HTML ja CSS taitojen näyttämiseen responsiivisella sivustolla.",
+    "date": "Loka. 2023",
+    "link": "https://lapamaatta.github.io/ohimaan-marjatila/index.html",
+    "link_source": "https://github.com/lapamaatta/ohimaan-marjatila",
+    "tags": ["HTML", "CSS"]
   }
 ]
-

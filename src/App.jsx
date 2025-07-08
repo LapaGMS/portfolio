@@ -10,23 +10,15 @@ import FadeInSection from "@/components/FadeInSection";
 import { motion } from "framer-motion";
 
 export default function App() {
-  const [isDark, setIsDark] = useState(false);
-
-  useEffect(() => {
-    const matchDark = window.matchMedia("(prefers-color-scheme: dark)");
-    setIsDark(matchDark.matches);
-    const listener = (e) => setIsDark(e.matches);
-    matchDark.addEventListener("change", listener);
-    return () => matchDark.removeEventListener("change", listener);
-  }, []);
-
   return (
     <>
       <Header />
       <motion.main
   className="
     transition-colors duration-500 ease-in-out pt-24 font-sans text-black dark:text-white
-    bg-light-gradient dark:bg-dark-gradient
+    bg-[length:100%_100%] bg-no-repeat
+    bg-gradient-to-b from-gray-100 via-purple-300 via-40% to-gray-200
+    dark:bg-gradient-to-b dark:from-black dark:via-purple-950 via-40% dark:to-black
   "
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}

@@ -28,7 +28,7 @@ export default function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <a href="#" className="text-xl font-bold">Rapukeisari</a>
+        <a href="#" className="text-xl font-bold">Lassi Määttä</a>
         <nav className="hidden md:flex gap-6 items-center">
           {navItems.map((item) => (
             <a key={item.href} href={item.href} className="hover:underline">
